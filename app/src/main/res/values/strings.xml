@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Almacenamiento_Jorge_Caro</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="id">Numero de identificacion</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="peso">Peso(Kg)</string>
+    <string name="estatura">Estatura(Cm)</string>
+    <string name="registrar_usuario">Registrar usuario</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="password">Contraseña</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="bienvenidos">Bienvenido a control de donantes</string>
+    <string name="iniciar_sesion_tv">Inicie sesion para empezar</string>
+    <string name="llenar">No ha llenado este campo</string>
 </resources>
