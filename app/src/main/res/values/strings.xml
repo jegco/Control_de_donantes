@@ -14,4 +14,19 @@
     <string name="bienvenidos">Bienvenido a control de donantes</string>
     <string name="iniciar_sesion_tv">Inicie sesion para empezar</string>
     <string name="llenar">No ha llenado este campo</string>
+    <string name="cambiar_pass">Cambiar contraseña</string>
+    <string name="eliminar_user">Elminar cuenta</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="control_donantes">Control de donantes</string>
+    <string name="id_del_donante_a_buscar">Digite id del donante</string>
+    <string-array name="tipo">
+        <item>Tipo A</item>
+        <item>Tipo B</item>
+        <item>Tipo O</item>
+        <item>Tipo AB</item>
+    </string-array>
+    <string-array name="sangre">
+        <item>RH+</item>
+        <item>RH-</item>
+    </string-array>
 </resources>

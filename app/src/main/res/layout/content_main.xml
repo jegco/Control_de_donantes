@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.jorgecaro.almacenamiento_jorge_caro.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:hint="@string/id_del_donante_a_buscar" />
+        <ImageButton
+            android:id="@+id/btn_limpiar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:tint="@android:color/darker_gray"
+            style="?borderlessButtonStyle"
+            android:src="@drawable/clear" />
+        <ImageButton
+            android:id="@+id/btn_buscar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            style="?borderlessButtonStyle"
+            android:tint="@android:color/darker_gray"
+            android:src="@drawable/search" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:scrollbars="vertical"
+        android:id="@+id/recycler_view"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:layout_margin="8dp"
+        >
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

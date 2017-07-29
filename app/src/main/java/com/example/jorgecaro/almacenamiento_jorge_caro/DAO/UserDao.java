@@ -36,7 +36,7 @@ public class UserDao {
         ContentValues valores = new ContentValues();
         valores.put(Database.getUserFields()[2],new_pass);
         long res = sq.update(Database.getUserTable(),
-                            valores,"WHERE "+Database.getUserFields()[1]+" = ? AND "+ Database.getUserFields()[2]+" = ?"
+                            valores,Database.getUserFields()[1]+" = ? AND "+ Database.getUserFields()[2]+" = ?"
                             , new String[]{usuario.getNombre(),usuario.getPass()});
         if (res>0) return true;
         return false;
@@ -45,8 +45,8 @@ public class UserDao {
     public static boolean delete_user(Usuario usuario, Database db){
         SQLiteDatabase sq = db.getWritableDatabase();
         return sq.delete(Database.getUserTable(),
-                        Database.getDonorFields()[1] + "=" + usuario.getNombre()
-                        +" AND "+Database.getUserFields()[2] + "=" + usuario.getPass()
-                        , null) > 0;
+                        Database.getUserFields()[1] + "= ?"
+                        +" AND "+Database.getUserFields()[2] + "= ?"
+                        , new String[]{ usuario.getNombre(),  usuario.getPass()}) > 0;
     }
 }

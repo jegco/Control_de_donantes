@@ -56,17 +56,18 @@ public class LoginActivity extends AppCompatActivity {
                     if(res==true) {
                         editor.putString("usuario", editText_nombre.getText().toString());
                         editor.putString("pass", editText_pass.getText().toString());
+                        editor.apply();
                         Intent i = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(i);
                     }else{
                         Toast.makeText(getApplicationContext(), "El usuario no existe", Toast.LENGTH_SHORT).show();
                     }
                 }else if(editText_nombre.getText().toString().equals("")){
-                    pass.setError("");
-                    nombre.setError(getResources().getString(R.string.llenar));
+                    editText_pass.setError("");
+                    editText_nombre.setError(getResources().getString(R.string.llenar));
                 }else if(editText_pass.getText().toString().equals("")){
-                    nombre.setError("");
-                    pass.setError(getResources().getString(R.string.llenar));
+                    editText_nombre.setError("");
+                    editText_pass.setError(getResources().getString(R.string.llenar));
                 }
             }
         });
