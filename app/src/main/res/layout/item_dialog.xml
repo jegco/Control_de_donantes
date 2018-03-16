@@ -30,7 +30,7 @@
             android:id="@+id/edtNombreDonante"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/nombre" />
+            android:hint="@string/name" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_weight="1"
@@ -43,7 +43,7 @@
             android:id="@+id/edtApellidoUsuario"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/apellido" />
+            android:hint="@string/lastname" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_weight="1"
@@ -58,7 +58,7 @@
             android:id="@+id/edtEdad"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/edad" />
+            android:hint="@string/age" />
     </android.support.design.widget.TextInputLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,14 +66,14 @@
         android:layout_weight="1">
         <Spinner
             android:layout_width="0dp"
-            android:id="@+id/sangre"
+            android:id="@+id/bloodType"
             android:layout_height="match_parent"
             android:layout_weight="1">
             
         </Spinner>
         <Spinner
             android:layout_width="0dp"
-            android:id="@+id/tipo"
+            android:id="@+id/rh"
             android:layout_height="match_parent"
             android:layout_weight="1"></Spinner>
     </LinearLayout>
@@ -94,7 +94,7 @@
                 android:layout_height="match_parent"
                 android:ems="10"
                 android:inputType="number"
-                android:hint="@string/peso" />
+                android:hint="@string/weigth" />
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:layout_weight="1"
@@ -109,7 +109,7 @@
                 android:ems="10"
                 android:inputType="number"
                 android:layout_height="match_parent"
-                android:hint="@string/estatura"/>
+                android:hint="@string/heigth"/>
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
 </LinearLayout>

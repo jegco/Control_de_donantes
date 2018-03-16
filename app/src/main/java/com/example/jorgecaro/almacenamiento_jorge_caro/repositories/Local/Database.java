@@ -1,4 +1,4 @@
-package com.example.jorgecaro.almacenamiento_jorge_caro.DAO;
+package com.example.jorgecaro.almacenamiento_jorge_caro.repositories.Local;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

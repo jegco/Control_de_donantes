@@ -2,30 +2,32 @@
     <string name="app_name">Almacenamiento_Jorge_Caro</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="id">Numero de identificacion</string>
-    <string name="nombre">Nombre</string>
-    <string name="apellido">Apellido</string>
-    <string name="edad">Edad</string>
-    <string name="peso">Peso(Kg)</string>
-    <string name="estatura">Estatura(Cm)</string>
-    <string name="registrar_usuario">Registrar usuario</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="age">Edad</string>
+    <string name="weigth">Peso(Kg)</string>
+    <string name="heigth">Estatura(Cm)</string>
+    <string name="registrar_usuario">Registrar user</string>
     <string name="iniciar_sesion">Iniciar sesion</string>
     <string name="password">Contraseña</string>
-    <string name="nombre_usuario">Nombre de usuario</string>
-    <string name="bienvenidos">Bienvenido a control de donantes</string>
+    <string name="nombre_usuario">Nombre de user</string>
+    <string name="bienvenidos">Bienvenido a control de donors</string>
     <string name="iniciar_sesion_tv">Inicie sesion para empezar</string>
     <string name="llenar">No ha llenado este campo</string>
     <string name="cambiar_pass">Cambiar contraseña</string>
     <string name="eliminar_user">Elminar cuenta</string>
     <string name="cerrar_sesion">Cerrar sesion</string>
-    <string name="control_donantes">Control de donantes</string>
-    <string name="id_del_donante_a_buscar">Digite id del donante</string>
-    <string-array name="tipo">
+    <string name="control_donantes">Control de donors</string>
+    <string name="id_del_donante_a_buscar">Digite id del donor</string>
+    <string name="action_search">search donor</string>
+    <string name="search">Search donor</string>
+    <string-array name="rh">
         <item>Tipo A</item>
         <item>Tipo B</item>
         <item>Tipo O</item>
         <item>Tipo AB</item>
     </string-array>
-    <string-array name="sangre">
+    <string-array name="bloodType">
         <item>RH+</item>
         <item>RH-</item>
     </string-array>
